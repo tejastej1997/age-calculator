@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+input {
+    outline: none;
+    width: 80px;
+    padding: 2px;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+label {
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.day,
+.month,
+.year {
+    display: flex;
+    flex-direction: column;
+}
+.arrow{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.content {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    right: 20px;
+    top: 50px;
+    border-radius: 30px 30px 150px 30px;
+}
+
+.calculator {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+}
+.result{
+    margin-top: 30px;
+}
+.r-day,.r-year,.r-months{
+    display: flex;
+    font-family: Poppins;
+    font-weight: 800;
+    /* font-weight: bold; */
+    font-size: 30px;
+    font-style: italic;
+}
+
+#day,#month,#year{
+    color: hsl(259, 100%, 65%);
+}
