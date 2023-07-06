@@ -38,6 +38,7 @@ label {
     justify-content: center;
     align-items: center;
     position: absolute;
+    right: 20px;
 }
 .content {
     position: absolute;
@@ -49,7 +50,7 @@ label {
     padding: 20px;
     background-color: hsl(0, 0%, 100%);
     right: 20px;
-    top: 50px;
+    /* top: 50px; */
     border-radius: 30px 30px 150px 30px;
 }
 
