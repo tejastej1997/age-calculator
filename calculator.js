@@ -1,0 +1,1 @@
+let day = document.getAnimations('day')
