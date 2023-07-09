@@ -39,7 +39,17 @@ label {
     align-items: center;
     position: absolute;
     right: 20px;
+    cursor: pointer;
+    border: 1px solid hsl(259, 100%, 65%);
 }
+
+.arrow:hover{
+    background-color: hsl(259, 84%, 58%) ;
+    color: hsl(259, 100%, 65%);
+    transition: 0.2s all;
+}
+
+
 .content {
     position: absolute;
     width: 500px;
