@@ -87,3 +87,7 @@ label {
 #day,#month,#year{
     color: hsl(259, 100%, 65%);
 }
+
+.hide {
+    display: none;
+}

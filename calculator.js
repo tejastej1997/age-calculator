@@ -6,9 +6,11 @@ let eday = document.getElementById('eday')
 let emonth = document.getElementById('emonth')
 let eyear = document.getElementById('eyear')
 
+let result =document.querySelector('.result')
+
 
 let getage =()=>{
-
+    result.classList.toggle('hide')
     let currentdate = new Date()
     let currentmonth=currentdate.getMonth()+1;
     console.log(currentdate.getFullYear());
