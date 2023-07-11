@@ -10,8 +10,8 @@ let result =document.querySelector('.result')
 
 
 let getage =()=>{
-    result.classList.toggle('hide')
-    let currentdate = new Date()
+    result.classList.toggle('hide');
+    let currentdate = new Date();
     let currentmonth=currentdate.getMonth()+1;
     console.log(currentdate.getFullYear());
 
