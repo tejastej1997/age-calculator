@@ -21,8 +21,6 @@ let getage =()=>{
     console.log('hello');
 }
 
-
-
 eyear.addEventListener('keyup',(e)=>{
     if (e.key=='Enter') {
         getage()
